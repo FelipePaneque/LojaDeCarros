@@ -1,0 +1,48 @@
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(32%, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  background-image:linear-gradient( rgb(1, 46, 88) , rgb(0, 168, 235));
+  }
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  background-color: darkgrey;
+}
+.grid > article img {
+  max-width: 100%;
+}
+.text {
+  padding: 0 20px 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  color:rgb(1, 46, 88);
+  margin-top: 7%;
+  font-size: 20px;
+
+}
+article> button {
+  background: gray;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 80%;
+  background-color: rgb(0, 150, 250);
+  border-radius: 20px;
+  margin-bottom: 5%;  
+  }
+
+
+  article button:hover{
+    background-color: orange;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .imagemgrid{
+    width: 100%;
+    height: 300px;
+  }
+
+ 
